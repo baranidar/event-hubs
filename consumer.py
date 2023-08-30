@@ -5,9 +5,9 @@ from azure.eventhub.extensions.checkpointstoreblobaio import (
     BlobCheckpointStore,
 )
 
-BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=<>;AccountKey=<>;EndpointSuffix=core.windows.net"
+BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=xxxxxx;AccountKey=xxxxxxxxxxx;EndpointSuffix=core.windows.net"
 BLOB_CONTAINER_NAME = "events-hub"
-EVENT_HUB_CONNECTION_STR = "Endpoint=sb://xxxxxxxxxx.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=<>"
+EVENT_HUB_CONNECTION_STR = "Endpoint=sb://xxxxxxxxxx.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xxxxxxxxxxxxxxxxxxxxxxx"
 EVENT_HUB_NAME = "mytopic"
 
 
